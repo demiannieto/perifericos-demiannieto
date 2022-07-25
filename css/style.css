@@ -62,7 +62,16 @@ font-family: 'Chakra Petch', sans-serif;
 padding-left: 10px;
 justify-content: space-between;
 padding: 10px;
+
  }
+
+.ul-txt {
+   transition: height 2s;
+}
+
+.ul-txt:hover {
+   color: white;
+}
 
  .gezatek {
 text-align: center;
@@ -115,7 +124,19 @@ margin: 10px 50px;
    background-color: black;
   }
  
+h2 {
+   font-family: 'Press Start 2P', cursive;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
 
+   transition: height 2s;
+}
+
+h2:hover {
+
+   height: 10px;
+   color: grey;
+}
   
   .card__img {
       width: 50px;
