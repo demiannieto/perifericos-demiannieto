@@ -1,256 +1,29 @@
-#grilla {
-   display: grid;
-   grid-template-areas:
-     "header header header"
-     "nav productos productos"
-     "nav servicios servi"
-     "footer footer footer";
-   grid-template-rows: 100px 1fr 1fr 75px; 
-   grid-template-columns: 20% auto 15%;
-   grid-row-gap: 10px;
-   grid-column-gap: 10px;
-   height: 100vh;
-   margin: 0;	 
+
+
+body {
+   background-image: linear-gradient(to bottom, rgb(76, 168, 243) , rgb(0, 0, 0));
+   background-repeat: no-repeat;
+   background-size: 6000px 1000px;
 }
 
-.inicio-body {
-   background-image: linear-gradient(to bottom, rgb(50, 155, 182), black);
-   
-}
- .border {
-    border: 4px inset rgb(112, 130, 153);
-    background-color: rgba(128, 159, 173, 0.651);
- }
-
- header {
-    grid-area: header;
-   
- }
- footer {
-    grid-area: footer;
- }
- section#productos {
-    grid-area: productos;    
- }
- section#servicios {
-    grid-area: servicios;     
- }
- nav {
-    grid-area: nav;
-    display: grid;
-    grid-template-rows: 2fr 4fr;
-
-    
- }
-
- a {
-   text-decoration: none;
-   color: rgb(100, 87, 87);
+h1 {
    font-family: 'Press Start 2P', cursive;
-   
- }
-
- .a-footer {
-   color: black;
- }
- 
- .ul-nav {
-list-style: none;
-display: flex;
-flex-direction: column;
-font-family: 'Chakra Petch', sans-serif;
-padding-left: 10px;
-justify-content: space-between;
-padding: 10px;
-
- }
-
-.ul-txt {
-   transition: height 2s;
-}
-
-.ul-txt:hover {
+   text-align: center;
+   margin: 100px;
    color: white;
 }
 
- .gezatek {
-text-align: center;
-font-family: 'Press Start 2P', cursive;
-font-size: 60px;
-color: rgb(236, 236, 236);
- }
-
-.logo_header {
-   display: flex;
-margin: 10px 50px;
+#carouselExampleIndicators {
+   width: 400px;
+   margin: 0 auto;
 }
 
-.ubi-body {
-   background-image: url(../img/WhatsApp\ Image\ 2022-07-14\ at\ 10.04.37\ PM.jpeg);
-   background-size: 1700px;
+.carousel-control-prev-icon {
+   background-color: rgba(0, 0, 0, 0.527);
 }
 
-
-
- .ul-footer {
-   list-style: none;
-   display: flex;
-   flex-direction: row;
-   font-family: 'Chakra Petch', sans-serif;
-   padding-left: 100px;
-   justify-content: space-evenly;
-   text-decoration: solid
-    }
- 
-
-    .card {
-      background-color: rgba(128, 128, 128, 0.39);
-      width: 500px;
-      margin: 10px;
-  
-      border: solid 2px rgb(93, 180, 214);
-  
-      text-align: center;
-  
-      display: flexbox;
-      justify-content: center;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-      transition: height 10s;
-  }
-
-  .card:hover {
-   height: 400px;
-   background-color: black;
-  }
- 
-h2 {
-   font-family: 'Press Start 2P', cursive;
-   font-size: 20px;
-   color: rgb(255, 255, 255);
-
-   transition: height 2s;
+.carousel-control-next-icon {
+   background-color: rgb(0, 0, 0, 0.527);
 }
 
-h2:hover {
-
-   height: 10px;
-   color: grey;
-}
-  
-  .card__img {
-      width: 50px;
-  }
-  
-  .card_txt {
-      background-color: rgb(255, 255, 255);
-      font-size: 20px;
-      
-  }
-  
-  .card_txt--description {
-      color: rgb(221, 219, 219);
-      font-family: 'Teko', sans-serif;
-      font-size: medium;
-  
-  }
-  
-  h2 {
-   text-align: center;
-
-  }
-
-  .ubicacion {
-   text-align: center;
-   font-family: 'Chakra Petch', sans-serif;
-   color: rgb(104, 103, 103);
-   font-family: 'Press Start 2P', cursive;
-   font-size: 50px;
-  }
-
-
-  @media only screen and (min-width:768px)
-  {
-     .body {
-        background-image: url(../img/WhatsApp\ Image\ 2022-07-14\ at\ 10.04.37\ PM.jpeg);
-     }
-     
-     #grilla {
-        grid-template-columns: repeat(4,1fr);
-     }
-  
-     .border {
-        border: 4px inset rgb(2, 63, 143);
-        background-color: rgba(23, 79, 105, 0.651);
-     }
-
-     .ubicacion {
-      text-align: center;
-      font-family: 'Chakra Petch', sans-serif;
-      color: rgb(104, 103, 103);
-      font-family: 'Press Start 2P', cursive;
-      font-size: 50px;
-     }
-  }
-
-
-
-
-@media only screen and (min-width:480px)
-{
-   .body {
-      background-image: url(../img/WhatsApp\ Image\ 2022-07-14\ at\ 10.04.37\ PM.jpeg);
-   }
-   
-   #grilla {
-      grid-template-columns: repeat(4,1fr);
-   }
-
-   .border {
-      border: 4px inset rgba(112, 130, 153, 0);
-      background-color: rgba(128, 159, 173, 0);
-   }
-
-   .ubicacion {
-      text-align: center;
-      font-family: 'Chakra Petch', sans-serif;
-      color: rgb(104, 103, 103);
-      font-family: 'Press Start 2P', cursive;
-      font-size: 50px;
-     }
-}
-
-@media only screen and (min-width:1024px) {
-
-   #grilla {
-      grid-template-columns: repeat(3,1fr);
-   }
-
-   .border {
-      border: 4px inset rgba(129, 129, 129, 0);
-      background-color: rgba(128, 159, 173, 0);
-   }
-   .ul-nav {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      font-family: 'Chakra Petch', sans-serif;
-      padding-left: 10px;
-      justify-content: space-between;
-      
-       }
-
-       .card {
-         background-color: rgba(12, 12, 12, 0);
-         width: 500px;
-         margin: 10px;
-     
-         border: solid 2px rgb(93, 180, 214);
-     
-         text-align: center;
-     
-         display: flexbox;
-         justify-content: center;
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     }
-}
+#
