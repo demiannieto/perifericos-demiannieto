@@ -12,5 +12,16 @@ ul {
     }
    
    }
+   h1.title {
+    font: $title-font; /* Uso la variable*/
+color: $cool-red;
+}
+
+div.container {
+color: $cool-red;
+background: #fff;
+width: 100%;
+box-shadow: $box-shadow-bottom-only;
+}
 
    
