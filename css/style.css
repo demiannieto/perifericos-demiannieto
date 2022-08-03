@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(76, 168, 243) , rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 6000px 1000px;
+    background-size: cover;
+ }
+ 
+ .body-prd {
+    background-size: 6000px;
+ }
+ 
+ .body-info{
+    background-size: cover;
+ }
+ 
+ h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 100px;
+    color: white;
+ }
+ 
+ #carouselExampleIndicators {
+    width: 400px;
+    margin: 0 auto;
+ }
+ 
+ .carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.527);
+ }
+ 
+ .carousel-control-next-icon {
+    background-color: rgb(0, 0, 0, 0.527);
+ }
+ 
+ .card {
+    width: 400px;
+    margin: 0 auto;
+ }
+ 
+ .txt-info {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+ }
+ 
+ iframe {
+    margin: 50px 50px 50px 60px;
+ }
+   
+
+ ul {
+    list-style: none;
+   }
+   
+   ul li {
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+   }
