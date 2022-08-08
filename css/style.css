@@ -2,16 +2,17 @@ body {
     background-image: linear-gradient(to bottom, rgb(76, 168, 243) , rgb(0, 0, 0));
     background-repeat: no-repeat;
     background-size: 6000px 1000px;
-    background-size: cover;
  }
  
- .body-prd {
-    background-size: 6000px;
- }
- 
- .body-info{
-    background-size: cover;
- }
+.body-prd {
+   background-size: cover;
+}
+
+.body-info {
+   background-size: cover;
+}
+
+
  
  h1 {
     font-family: 'Press Start 2P', cursive;
@@ -71,4 +72,16 @@ body {
     width: 100%;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
    }
-   
+
+.p-contacto {
+   font-family:'Times New Roman', Times, serif;
+   color: #ffffff;
+   text-align: center;
+   margin: 10px;
+   font-size: 25px;
+}
+
+.form-label {
+   color: #ffffff;
+   font-family: 'Press Start 2P', cursive;
+}
